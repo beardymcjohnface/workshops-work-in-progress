@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Welcome to the Adelaide Bioinformatics workshop programme!
+__Welcome to the Adelaide Bioinformatics workshop programme!__
 
 <br>
 
