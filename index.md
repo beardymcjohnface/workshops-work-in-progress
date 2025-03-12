@@ -4,24 +4,20 @@ layout: default
 
 Welcome to the Adelaide Bioinformatics workshop programme!
 
+<br>
 
-### Latest
+__Latests posts__
 
 {% assign post = site.posts.first %}
 
 <h2><a href="{{ post.url }}">{{ post.title }}</a></h2>
 <p>{{ post.date | date_to_string }}</p>
-<details>
-  <summary>
-    {{ post.excerpt }}(<i>Click to expand</i>)
-  </summary>
-  {{ post.content | remove_first: post.excerpt }}
-</details>
+<p>{{ post.excerpt }} ...</p>
 
 <br>
 
 
-### Recent
+__Recent posts__
 
 {% for post in site.posts offset:1 limit:3 %}
   <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
