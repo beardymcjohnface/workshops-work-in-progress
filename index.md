@@ -2,11 +2,11 @@
 layout: default
 ---
 
-Welcome to the Adelaide Bioinformatics workshop programme!
+# Welcome to the Adelaide Bioinformatics workshop programme!
 
 <br>
 
-__Latests posts__
+## Latests posts
 
 {% assign post = site.posts.first %}
 
@@ -17,7 +17,7 @@ __Latests posts__
 <br>
 
 
-__Recent posts__
+## Recent posts
 
 {% for post in site.posts offset:1 limit:3 %}
   <h3><a href="{{ post.url }}">{{ post.title }}</a></h3>
